@@ -9,4 +9,7 @@ mongodb를 공부하면서 기억해야할 점 및 샘플 소스
 - `executionStats.totalKeysExamined: 88` - todo
 - `executionStats.totalDocsExamined: 82` - 실제 조회건 추출을 위해 고려되는 도큐먼트 수
 - `executionStats.executionStages.totalChildMillis` - todo
-- `executionStats.executionStages` - 샤드별로 대상 추출건 수, 실행시간, 리턴되는 도큐먼트수 등을 알 수 
+- `executionStats.executionStages` - 샤드별로 대상 추출건 수, 실행시간, 리턴되는 도큐먼트수 등을 알 수 있다
+
+# rule based optimization
+- todo mongodb의 optimizer는 rule based로 동작하는데 mysql과 같이 cost based와는 다르고 어떤 장단점이 있는지
